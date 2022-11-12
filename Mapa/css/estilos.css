@@ -22,30 +22,37 @@ nav{
 }
 nav .contenedor{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    padding: 0 40px;
     
 }
 nav .logo{
-    margin-right: 5rem;
+    /* margin-right: 5rem; */
     height: 4.5rem;
     
    
 }
 nav .logo img{
     height: 100%;
-    
+    vertical-align: top;
     
 }
  nav .enlaces-navegador{
     display: flex;
     align-items: center;
+    justify-content: right;
+    
     
  }
  nav .enlaces-navegador a{
-    margin: 0.5rem;
+    
     text-decoration: none;
     color: black;
-    
+    text-align: right;
+    margin-left: 2rem;
  }
 #presentacion{
     margin-top: 5.5rem;
