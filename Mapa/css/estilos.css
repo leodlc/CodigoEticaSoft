@@ -63,3 +63,54 @@ nav .logo img{
 }
 
 
+
+
+/* Sociedad */
+.contenedor .contenedor-img{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+    
+
+}
+.contenedor-img img{
+    width: 50%;
+}
+.contenedor .contenedor-info{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 3rem 0 3rem;
+
+}
+.contenedor-info p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.contenedor-info ul{
+    font-size: 0.5rem;
+    
+}
+@media (min-width: 780px){
+    .principio{
+        display: flex;
+        
+        
+    }
+    
+
+    /* .contenedor  .contenedor-info{
+        width: 30%;
+    }
+    
+    .contenedor-img img{
+        width: 30%;
+    }
+    .contenedor-info ul{
+        font-size: 1rem;
+        
+    } */
+    
+}
+
