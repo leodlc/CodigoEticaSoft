@@ -211,7 +211,13 @@ nav .logo img{
     margin-bottom: 1rem;
 }
 .contenedor-info ul{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    background-size:COVER;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    max-width: 85%;
+    margin: 0 auto;
     
 }
 @media (min-width: 780px){
