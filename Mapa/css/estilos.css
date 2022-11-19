@@ -5,6 +5,7 @@
 }
 html{
     font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
 }
 .titulos-etica{
     text-align: center;
@@ -13,7 +14,9 @@ html{
 .contenedor{
     max-width: 1400px;
     margin: auto;
+    
 }
+
 nav{
     width: 100%;
     height: 80px;
@@ -59,7 +62,15 @@ nav .logo img{
     color: black;
     text-align: right;
     margin-left: 2rem;
+    transition: 0.5s ease-out;
+    
  }
+ /* .enlaces-navegador a:hover{
+    
+    
+    
+ } */
+
 #presentacion{
     margin-top: 5.5rem;
 }
@@ -74,17 +85,38 @@ nav .logo img{
 }
 
 /* Indice */
+
 #indice{
     background-color: rgb(30,30,30);
     color: white;
     text-align: center;
 }
 #indice .contenedor{
-    padding: 200px 0px;
+    padding: 100px 0px;
+}
+#indice a{
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0,0, 0, 0.5);
+    color: black;
+    background-color:white;
+    transition: ease-in-out 0.3s;
+    text-decoration: none;
+    
+    
+}
+#indice a:hover{
+    /* border: 2px solid rgb(255, 255, 255); */
+    background-color: rgb(40,40,40);
+    color: white;
 }
 #indice h2{
     margin-top: 0;
     font-size: 3.2em;
+    margin-bottom: 2rem;
 }
 #indice p{
     display: none;
@@ -96,6 +128,9 @@ nav .logo img{
     margin: 20px;
     border-radius: 15px;
     
+}
+#indice h3{
+    margin: 1.5rem 0;
 }
 .carta:first-child{
     background-image:linear-gradient(
@@ -187,7 +222,15 @@ nav .logo img{
 }
 
 /* Fin indice */
+.titulos-etica {
+    font-size: 2.5rem;
+}
 /* Sociedad */
+#principio1 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    
+}
 .contenedor .contenedor-img{
     display: flex;
     justify-content: center;
@@ -207,11 +250,11 @@ nav .logo img{
 
 }
 .contenedor-info p{
-    font-size: 1.5rem;
+    font-size: 0.9rem;
     margin-bottom: 1rem;
 }
 .contenedor-info ul{
-    font-size: 1.6rem;
+    font-size: 0.6rem;
     background-size:COVER;
     background-attachment: fixed;
     height: 100%;
@@ -227,18 +270,16 @@ nav .logo img{
         
     }
     
-
-    /* .contenedor  .contenedor-info{
-        width: 30%;
-    }
-    
-    .contenedor-img img{
-        width: 30%;
+    .contenedor-info p{
+        font-size: 1.6rem;
+        
     }
     .contenedor-info ul{
-        font-size: 1rem;
+        font-size: 1.5rem;
         
-    } */
+        
+    }
+    
     
 }
 
