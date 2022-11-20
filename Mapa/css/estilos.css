@@ -12,9 +12,20 @@ html{
     font-size: 3.5rem;
 }
 .contenedor{
+    /* max-width: 1400px;
+    margin: auto; */
+    
     max-width: 1400px;
     margin: auto;
+    overflow: hidden;
     
+}
+.sombra{
+    -webkit-box-shadow: 0px 0px 13px -1px rgba(0,0,0,0.71);
+    -moz-box-shadow: 0px 0px 13px -1px rgba(0,0,0,0.71);
+    box-shadow: 0px 0px 13px -1px rgba(0,0,0,0.71);
+    border-radius: 1rem;
+    padding: 1.5rem 1rem;
 }
 
 nav{
@@ -62,23 +73,77 @@ nav .logo img{
     color: black;
     text-align: right;
     margin-left: 2rem;
-    transition: 0.5s ease-out;
+    transition: ease-in-out 0.3s;
     
  }
- /* .enlaces-navegador a:hover{
+ .enlaces-navegador a:hover{
+    color:rebeccapurple;
     
     
-    
- } */
-
+ }
+/* PRESENTACION */
 #presentacion{
     margin-top: 5.5rem;
+    margin-bottom: 3.5rem;
+    
 }
 #presentacion h1{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+.preambulo{
+    margin: 0 2rem 0 2rem;
+    width: auto;
+    
+}
+.tarjeta{
+    background-color: rgb(24, 23, 23);
+    /* height: auto;
+    width: auto; */
+    /* padding: 1.5rem 1rem; */
+    height: auto;
+    width: auto;
+    
+}
+.texto-tarjeta{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
+.preambulo p{
+    text-align: center;
+    font-size: 0.8rem;
+    color: white;
+    
+}
+.preambulo-img{
+    display: none;
+
+}
+/* .preambulo-img img{
+    width: 25%;
+}  */
+
+@media (min-width: 820px){
+    #presentacion h1{
+        font-size: 2.5rem;
+    }
+    .tarjeta{
+        height: 30rem;
+    }
+    .preambulo p{
+        font-size: 1.5rem;
+    }
+    .preambulo-img{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .preambulo-img img{
+        width: 20%;
+    } 
+}
+/* PRESENTACION FIN */
 #indice h2{
     text-align: center;
     font-size: 3.5rem;
@@ -93,6 +158,7 @@ nav .logo img{
 }
 #indice .contenedor{
     padding: 100px 0px;
+    
 }
 #indice a{
     font-size: 0.9em;
@@ -115,8 +181,8 @@ nav .logo img{
 }
 #indice h2{
     margin-top: 0;
-    font-size: 3.2em;
-    margin-bottom: 2rem;
+    font-size: 3em;
+    margin-bottom: 5rem;
 }
 #indice p{
     display: none;
@@ -196,7 +262,7 @@ nav .logo img{
     )
     ,url("../multimedia/fondo-personal.jpg");
 }
-@media (min-width: 780px){
+@media (min-width: 820px){
      .items{
         display:grid;
         grid-template-columns: repeat(3,1fr);
@@ -225,12 +291,41 @@ nav .logo img{
 .titulos-etica {
     font-size: 2.5rem;
 }
-/* Sociedad */
-#principio1 {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+#principio1{
+    margin:5.5rem 0;
+}
+/* Principios */
+#principio2 {
+    margin:5.5rem 0;
     
 }
+#principio3 {
+    margin:5.5rem 0;
+    
+}
+#principio4 {
+    margin:5.5rem 0;
+    
+}
+#principio5 {
+    margin:5.5rem 0;
+    
+}
+#principio6 {
+    margin:5.5rem 0;
+    
+}
+#principio7 {
+    margin:5.5rem 0;
+    
+}
+#principio8 {
+    margin:5.5rem 0;
+    
+}
+/* Principios Fin */
+/* Sociedad */
+
 .contenedor .contenedor-img{
     display: flex;
     justify-content: center;
@@ -243,6 +338,7 @@ nav .logo img{
 }
 .contenedor .contenedor-info{
     display: flex;
+    
     width: 70%;
     justify-content: center;
     flex-direction: column;
@@ -263,6 +359,10 @@ nav .logo img{
     margin: 0 auto;
     
 }
+.principio{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
 @media (min-width: 780px){
     .principio{
         display: flex;
@@ -279,7 +379,56 @@ nav .logo img{
         
         
     }
+    .contenedor-img img{
+        width: 70%;
+    }
     
+    
+}
+.foot{
+    background-color: rgb(30,30,30);
+    
+}
+.foot h6{
+    margin: 0.4rem 0.4rem 0.4rem 0.4rem;
+    color: white;
+    font-weight: 400;
+}
+.contenido-footer{
+    
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    padding: 1rem 1rem;
+    color: white;
+    font-size: 0.6rem;
+}
+.contenido-footer h6{
+    font-weight: 400;
+    margin: 0.5rem 0.5rem;
+    
+
+}
+.contenido-footer a{
+    font-weight: 400;
+    margin: 0.5rem 0.5rem;
+    text-decoration: none;
+    font-size: 0.7rem;
+    color: white;
+    transition: ease-in-out 0.3s;
+
+}
+.contenido-footer a:hover{
+    color:coral;
+    
+}
+@media (min-width: 820px){
+    .contenido-footer{
+        font-size: 1rem;
+        justify-items: center;
+    }
+    .foot h6{
+        text-align: center;
+    }
     
 }
 

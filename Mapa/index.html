@@ -5,15 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preload"  href="css/estilos.css" as="style">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+    
+    
     <title>Codigo de ética del Ingeniero de Software</title>
 </head>
+<script>
 
+</script>
 <body>
+    
     <header>
         <nav>
             <div class="contenedor">
@@ -32,12 +41,29 @@
     </header>
     <section id="presentacion">
 
-        <div class="contenedor">
+        <div class="contenedor preambulo" data-aos="fade-up"
+             data-aos-anchor-placement="bottom-bottom">
             <h1>Aprende sobre el codigo de etica del Ingeniero de Software!</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate obcaecati eveniet,
-                voluptate quidem sed assumenda.
-            </p>
+            <div class="tarjeta sombra">
+                <div class="texto-tarjeta">
+                    <p>
+                        Hoy en día, el software ya tiene un papel central en la vida de las personas de todo el mundo,
+                        ya que se lo utiliza para el comercio, medicina, entrenemiento, educación, política y la industria
+                        en general. Los ingenieros de Software son los que contribuyen directamente en el análisis,diseño,
+                        desarrollo, mantenimiento, certificación y pruebas de sistemas de software, es por esto que es necesario
+                        tener un código de ética ya que los ingenieros SOFTW tienen oportunidades para causar beneficios o 
+                        generar daños directa o indirectamente. Es por esto que, es necesario asegurar que estos profesionales
+                        utilizarán sus conocimientos para hacer el bien y hacer respetar su profesión en beneficio de la sociedad.
+                    </p>
+                    
+                </div>
+                <div class="preambulo-img" >
+                    <img src="multimedia/presentacion-img1 (1).svg" alt="">
+                    <img src="multimedia/presentacion-img1 (2).svg" alt="">
+                    <img src="multimedia/presentacion-img1 (3).svg" alt="">
+                </div>
+
+            </div>
 
 
         </div>
@@ -46,14 +72,14 @@
         <div class="contenedor">
             <h2>Conoce sobre los 8 principios del código de ética del ISW</h2>
             <div class="items">
-                <div class="carta">
+                <div class="carta" data-aos="flip-down">
                     <h3>Sociedad</h3>
                     <p>
                         Los ingenieros de software actuarán en forma congruente con el interés social.
                     </p>
                     <a href="#principio1">conosca más</a>
                 </div>
-                <div class="carta">
+                <div class="carta" data-aos="flip-down">
                     <h3>Cliente</h3>
                     <p>
                         Los ingenieros de software actuarán de manera que se concilien los mejores
@@ -61,7 +87,7 @@
                     </p>
                     <a href="#principio2">conosca más</a>
                 </div>
-                <div class="carta">
+                <div class="carta" data-aos="flip-down">
                     <h3>Producto</h3>
                     <p>
                         Los ingenieros de software asegurarán que sus productos y modificaciones correspondientes
@@ -69,14 +95,14 @@
                     </p>
                     <a href="#principio3">conosca más</a>
                 </div>
-                <div class="carta">
+                <div class="carta" data-aos="flip-down">
                     <h3>Juicio</h3>
                     <p>
                         Los ingenieros de software mantendrán integridad e independencia en su juicio profesional.
                     </p>
                     <a href="#principio4">conosca más</a>
                 </div>
-                <div class="carta">
+                <div class="carta" data-aos="flip-down">
                     <h3>Administración</h3>
                     <p>
                         Los ingenieros de software gerentes y líderes promoverán y se suscribirán a un enfoque
@@ -84,7 +110,7 @@
                     </p>
                     <a href="#principio5">conosca más</a>
                 </div>
-                <div class="carta">
+                <div class="carta" data-aos="flip-down">
                     <h3>Profesión</h3>
                     <p>
                         Los ingenieros de software incrementarán la integridad y reputación de la profesión
@@ -92,14 +118,14 @@
                     </p>
                     <a href="#principio6">conosca más</a>
                 </div>
-                <div class="carta">
+                <div class="carta" data-aos="flip-down">
                     <h3>Colegas</h3>
                     <p>
                         Los ingenieros de software apoyarán y serán justos con sus colegas.
                     </p>
                     <a href="#principio7">conosca más</a>
                 </div>
-                <div class="carta">
+                <div class="carta" data-aos="flip-down">
                     <h3>Personal</h3>
                     <p>
                         Los ingenieros de software participarán toda su vida en el aprendizaje relacionado con la
@@ -115,10 +141,10 @@
         <div class="contenedor principio">
 
             <div class="contenedor-img">
-                <img src="multimedia/sociedad.svg" alt="">
+                <img src="multimedia/sociedad.svg" alt="" data-aos="fade-right">
 
             </div>
-            <div class="contenedor-info">
+            <div class="contenedor-info sombra"data-aos="fade-left">
                 <p>
                     Los ingenieros de software actuarán en forma congruente con el interés social.
                 </p>
@@ -152,7 +178,7 @@
         <h1 class="titulos-etica">Cliente</h1>
         <div class="contenedor principio">
 
-            <div class="contenedor-info">
+            <div class="contenedor-info sombra"  data-aos="fade-right" >
                 <p>
                     Los ingenieros de software actuarán de manera que se concilien los mejores
                     intereses de sus clientes y empresarios, congruentemente con el interés social.
@@ -178,7 +204,7 @@
 
                 </ul>
             </div>
-            <div class="contenedor-img">
+            <div class="contenedor-img"  data-aos="fade-left">
                 <img src="multimedia/cliente.svg" alt="">
 
             </div>
@@ -187,11 +213,11 @@
     <section id="principio3">
         <h1 class="titulos-etica">Producto</h1>
         <div class="contenedor principio">
-            <div class="contenedor-img">
+            <div class="contenedor-img"  data-aos="fade-right">
                 <img src="multimedia/producto.svg" alt="">
 
             </div>
-            <div class="contenedor-info">
+            <div class="contenedor-info sombra" data-aos="fade-left">
                 <p>
                     Los ingenieros de software asegurarán que sus productos y modificaciones correspondientes
                     cumplen los estándares profesionales más altos posibles.
@@ -223,7 +249,7 @@
         <h1 class="titulos-etica">Juicio</h1>
         <div class="contenedor principio">
 
-            <div class="contenedor-info">
+            <div class="contenedor-info sombra" data-aos="fade-right">
                 <p>
                     Los ingenieros de software mantendrán integridad e independencia en su juicio profesional.
                 </p>
@@ -246,8 +272,8 @@
 
                 </ul>
             </div>
-            <div class="contenedor-img">
-                <img src="multimedia/juicio.svg" alt="">
+            <div class="contenedor-img" data-aos="fade-left">
+                <img src="multimedia/juicio.svg" alt="" >
 
             </div>
         </div>
@@ -255,11 +281,11 @@
     <section id="principio5">
         <h1 class="titulos-etica">Administración</h1>
         <div class="contenedor principio">
-            <div class="contenedor-img">
+            <div class="contenedor-img" data-aos="fade-right">
                 <img src="multimedia/administracion.svg" alt="">
 
             </div>
-            <div class="contenedor-info">
+            <div class="contenedor-info sombra" data-aos="fade-left">
                 <p>
                     Los ingenieros de software gerentes y líderes promoverán y se suscribirán a un enfoque
                     ético en la administración del desarrollo y mantenimiento de software
@@ -289,7 +315,7 @@
         <h1 class="titulos-etica">Profesión</h1>
         <div class="contenedor principio">
 
-            <div class="contenedor-info">
+            <div class="contenedor-info sombra" data-aos="fade-right">
                 <p>
                     Los ingenieros de software incrementarán la integridad y reputación de la profesión
                     congruentemente con el interés social.  
@@ -311,8 +337,8 @@
 
                 </ul>
             </div>
-            <div class="contenedor-img">
-                <img src="multimedia/profesion.svg" alt="">
+            <div class="contenedor-img" data-aos="fade-left">
+                <img src="multimedia/profesion.svg" alt="" >
 
             </div>
         </div>
@@ -320,11 +346,11 @@
     <section id="principio7">
         <h1 class="titulos-etica">Colegas</h1>
         <div class="contenedor principio">
-            <div class="contenedor-img">
+            <div class="contenedor-img" data-aos="fade-right">
                 <img src="multimedia/colegas.svg" alt="">
 
             </div>
-            <div class="contenedor-info">
+            <div class="contenedor-info sombra" data-aos="fade-left">
                 <p>
                     Los ingenieros de software apoyarán y serán justos con sus colegas.
                 </p>
@@ -349,7 +375,7 @@
         <h1 class="titulos-etica">Personal</h1>
         <div class="contenedor principio">
 
-            <div class="contenedor-info">
+            <div class="contenedor-info sombra" data-aos="fade-right">
                 <p>
                     Los ingenieros de software participarán toda su vida en el aprendizaje relacionado con la
                     práctica de su profesión y promoverán un enfoque ético en la práctica de la profesión.
@@ -373,13 +399,42 @@
 
                 </ul>
             </div>
-            <div class="contenedor-img">
-                <img src="multimedia/personal.svg" alt="">
+            <div class="contenedor-img" data-aos="fade-left">
+                <img src="multimedia/personal.svg" alt="" >
 
             </div>
         </div>
     </section>
+    <section id="footer">
+        <div class="contenedor foot">
+            <div class="contenido-footer">
+                <div class="integrantes">
+                    <h6>By Grupo 9:</h6>
+                    <h6>De La Cadena Leonardo</h6>
+                    <h6>Ferrín Josue</h6>
+                    <h6>Imbaquinga Jose</h6>
+                    <h6>Montenegro Pamela</h6>
+                    
+                </div>
+                <div class="contactos">
+                    <h6>Contactos:</h6>
+                    <h6>(+593)0983803090</h6>
+                </div>
+                <div class="faqs">
+                    <h6>Documentación:</h6>
+                    <a href="">FAQs</a>
+                </div>
+            </div>
+            <h6>Modelos de Procesos de Desarrollo de Software 8007</h6>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/scrol.js"></script>
+    <!-- <script>
+        AOS.init();
+    </script> -->
+    
+
 </body>
 
 </html>

@@ -1,4 +1,6 @@
 let ubicacionPrincipal=window.pageYOffset;
+AOS.init();
+
 window.addEventListener("scroll",function(){
     /* console.log(window.pagepageYOffset) */
     let desplazamientoActual = window.pageYOffset; //100
